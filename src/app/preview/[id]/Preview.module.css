@@ -1,0 +1,153 @@
+.container {
+  padding: 10px;
+  position: relative;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 375px) {
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; 
+    background-color: white; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: -1; 
+  }
+}
+
+@media (min-width: 375px) {
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30vh; 
+    background-color: var(--primary); 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: -1; 
+  }
+}
+
+
+.backButton {
+  padding: 10px 20px;
+  color: var(--primary);
+  border: 1px solid gray;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 375px) {
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 375px) {
+  .profile {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+@media (max-width: 375px) {
+  .screen {
+    width: 100%;
+    height: 100%;
+    background: white;
+  }
+}
+
+@media (min-width: 375px) {
+  .screen {
+    width: 200px;
+    height: 100%;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+}
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.roundImage {
+  width: 64px; 
+  height: 64px; 
+  border-radius: 50%; 
+  object-fit: cover;
+  
+  margin: 20px;
+}
+
+.name {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 3px;
+}
+
+.email {
+  font-size: 10px;
+  margin: 3px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  padding: 10px; 
+  font-size: 12px; 
+  border: none;
+  border-radius: 5px; 
+  background-color: var(--platform-color); 
+  color: white; 
+  cursor: pointer; 
+  text-align: start;
+  margin: 5px;
+}
+
+.shareButton {
+  font-size: 12px; 
+  border: none;
+  border-radius: 5px; 
+  background-color: var(--primary); 
+  color: white; 
+  cursor: pointer; 
+  padding: 10px 20px;
+}

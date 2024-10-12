@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 375px) {
+  .titleText {
+    display: none;
+  }
+}
+
+@media (min-width: 375px) {
+  .previewIcon {
+    display: none;
+  }
+}
+
+.logo {
+  height: 35px;
+  width: 55px;
+  padding: 0px 10px;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs button {
+  margin: 0 10px;
+  padding: 0px 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: gray;
+}
+
+.tabs button.active {
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.previewButton {
+  padding: 10px 20px;
+  color: var(--primary);
+  border: 1px solid gray;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}

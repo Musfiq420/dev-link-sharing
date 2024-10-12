@@ -1,0 +1,97 @@
+@media (max-width: 375px) {
+  .container {
+    padding: 20px;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 375px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleText {
+  font-size: 30px;
+}
+
+
+
+.loginContainer {
+  padding: 10px;
+}
+
+@media (max-width: 375px) {
+  .loginCard {
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 375px) {
+  .loginCard {
+    background-color: white;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+}
+
+
+.loginText {
+  text-align: start;
+  margin-bottom: 5px;
+}
+
+.loginSubText {
+  text-align: start;
+  margin-bottom: 20px;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.loginCaption {
+  padding-left: 10px;
+}
+
+.logo {
+  height: 35px;
+  width: 55px;
+  padding: 0px 10px;
+}
+
+.loginButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #DB4437;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.logoutButton {
+  width: 100%;
+  padding: 5px;
+  color: var(--primary);
+  border: 1px solid gray;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
