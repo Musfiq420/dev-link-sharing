@@ -1,4 +1,4 @@
-# Dev Link Sharing App 🚀
+# Dev Link Sharing App 🔗
 
 A simple **link sharing app** built with **Next.js 14 App Router**, **NextAuth.js**, and **MongoDB**. This app allows users to manage and share their development-related links (like GitHub, portfolio, and more). Users can also edit their profile and access the preview of their public profile.
 
